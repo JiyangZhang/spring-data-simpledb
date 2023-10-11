@@ -47,7 +47,7 @@ public class DomainItemBuilder<T> {
 	}
 
 	private Map<String, String> convertSimpleDbAttributes(List<Attribute> simpleDbAttributes) {
-		final Map<String, List<String>> multiValueAttributes = new HashMap<String, List<String>>();
+	    final Map<String, List<String>> multiValueAttributes = new HashMap<String, List<String>>();  // this is a question for testing??
 		for (Attribute attr : simpleDbAttributes) {
 			if (!multiValueAttributes.containsKey(attr.getName())) {
 				multiValueAttributes.put(attr.getName(), new ArrayList<String>());
