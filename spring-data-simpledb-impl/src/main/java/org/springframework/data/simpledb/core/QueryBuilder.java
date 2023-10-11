@@ -99,7 +99,6 @@ public class QueryBuilder {
 	@Override
 	public String toString() {
 		// TODO change itemName() to ID field from domain object
-	        // Test question
 		String result = query.toString();
 		LOGGER.debug("Created query: {}", result);
 		return result;
