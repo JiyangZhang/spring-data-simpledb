@@ -33,7 +33,6 @@ public class DomainItemBuilder<T> {
      * @return T the Item Instance
      */
 	public T populateDomainItem(SimpleDbEntityInformation<T, ?> entityInformation, Item item) {
-	        // add q?
 		return buildDomainItem(entityInformation, item);
 	}
 
